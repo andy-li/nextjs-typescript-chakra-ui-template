@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@chakra-ui/next-js':
     specifier: ^2.1.4
-    version: registry.npmmirror.com/@chakra-ui/next-js@2.1.4(@chakra-ui/react@2.6.0)(@emotion/react@11.10.5)(next@13.4.6)(react@18.2.0)
+    version: registry.npmmirror.com/@chakra-ui/next-js@2.1.4(@chakra-ui/react@2.7.1)(@emotion/react@11.10.5)(next@13.4.9)(react@18.2.0)
   '@chakra-ui/react':
-    specifier: ^2.6.0
-    version: registry.npmmirror.com/@chakra-ui/react@2.6.0(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.7.1
+    version: registry.npmmirror.com/@chakra-ui/react@2.7.1(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
   '@emotion/react':
     specifier: ^11.10.5
     version: registry.npmmirror.com/@emotion/react@11.10.5(@babel/core@7.22.8)(@types/react@18.0.26)(react@18.2.0)
@@ -24,8 +24,8 @@ dependencies:
     specifier: ^10.12.16
     version: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
   next:
-    specifier: ^13.4.6
-    version: registry.npmmirror.com/next@13.4.6(@babel/core@7.22.8)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^13.4.9
+    version: registry.npmmirror.com/next@13.4.9(@babel/core@7.22.8)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: registry.npmmirror.com/react@18.2.0
@@ -33,8 +33,8 @@ dependencies:
     specifier: ^18.2.0
     version: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
   react-icons:
-    specifier: ^4.4.0
-    version: registry.npmmirror.com/react-icons@4.4.0(react@18.2.0)
+    specifier: ^4.10.1
+    version: registry.npmmirror.com/react-icons@4.10.1(react@18.2.0)
 
 devDependencies:
   '@commitlint/config-conventional':
@@ -1780,29 +1780,29 @@ packages:
     version: 0.2.3
     dev: true
 
-  registry.npmmirror.com/@chakra-ui/accordion@2.1.11(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0):
-    resolution: {integrity: sha512-mfVPmqETp9pyRDHJ33AdF19oHv/LyxVzQJtlxUByuvs8Cj9QQZ2LQLg5kejm+b3mj03A7A6yfbuo3RNaI4Bhsg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/accordion/-/accordion-2.1.11.tgz}
-    id: registry.npmmirror.com/@chakra-ui/accordion/2.1.11
+  registry.npmmirror.com/@chakra-ui/accordion@2.2.0(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0):
+    resolution: {integrity: sha512-2IK1iLzTZ22u8GKPPPn65mqJdZidn4AvkgAbv17ISdKA07VHJ8jSd4QF1T5iCXjKfZ0XaXozmhP4kDhjwF2IbQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/accordion/-/accordion-2.2.0.tgz}
+    id: registry.npmmirror.com/@chakra-ui/accordion/2.2.0
     name: '@chakra-ui/accordion'
-    version: 2.1.11
+    version: 2.2.0
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       framer-motion: '>=4.0.0'
       react: '>=18'
     dependencies:
       '@chakra-ui/descendant': registry.npmmirror.com/@chakra-ui/descendant@3.0.14(react@18.2.0)
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-use-controllable-state': registry.npmmirror.com/@chakra-ui/react-use-controllable-state@2.0.8(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       '@chakra-ui/transition': registry.npmmirror.com/@chakra-ui/transition@2.0.16(framer-motion@10.12.16)(react@18.2.0)
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/alert@2.1.0(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/alert@2.1.0(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-OcfHwoXI5VrmM+tHJTHT62Bx6TfyfCxSa0PWUOueJzSyhlUOKBND5we6UtrOB7D0jwX45qKKEDJOLG5yCG21jQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/alert/-/alert-2.1.0.tgz}
     id: registry.npmmirror.com/@chakra-ui/alert/2.1.0
     name: '@chakra-ui/alert'
@@ -1811,11 +1811,11 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/spinner': registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/spinner': registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -1825,24 +1825,24 @@ packages:
     version: 2.1.2
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/avatar@2.2.9(@chakra-ui/system@2.5.6)(react@18.2.0):
-    resolution: {integrity: sha512-fjO25iNeMxSZKYGvbAqdMjsRus9Hgvhb+Ux8jNwKcfg47nqT+wVieMqsPdpQ0ggAuh1872oVvg2q1GfDdieMmA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/avatar/-/avatar-2.2.9.tgz}
-    id: registry.npmmirror.com/@chakra-ui/avatar/2.2.9
+  registry.npmmirror.com/@chakra-ui/avatar@2.2.11(@chakra-ui/system@2.5.8)(react@18.2.0):
+    resolution: {integrity: sha512-CJFkoWvlCTDJTUBrKA/aVyG5Zz6TBEIVmmsJtqC6VcQuVDTxkWod8ruXnjb0LT2DUveL7xR5qZM9a5IXcsH3zg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/avatar/-/avatar-2.2.11.tgz}
+    id: registry.npmmirror.com/@chakra-ui/avatar/2.2.11
     name: '@chakra-ui/avatar'
-    version: 2.2.9
+    version: 2.2.11
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/image': registry.npmmirror.com/@chakra-ui/image@2.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/image': registry.npmmirror.com/@chakra-ui/image@2.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-children-utils': registry.npmmirror.com/@chakra-ui/react-children-utils@2.0.6(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/breadcrumb@2.1.5(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/breadcrumb@2.1.5(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-p3eQQrHQBkRB69xOmNyBJqEdfCrMt+e0eOH+Pm/DjFWfIVIbnIaFbmDCeWClqlLa21Ypc6h1hR9jEmvg8kmOog==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/breadcrumb/-/breadcrumb-2.1.5.tgz}
     id: registry.npmmirror.com/@chakra-ui/breadcrumb/2.1.5
     name: '@chakra-ui/breadcrumb'
@@ -1854,7 +1854,7 @@ packages:
       '@chakra-ui/react-children-utils': registry.npmmirror.com/@chakra-ui/react-children-utils@2.0.6(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -1866,7 +1866,7 @@ packages:
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/button@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/button@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-E3c99+lOm6ou4nQVOTLkG+IdOPMjsQK+Qe7VyP8A/xeAMFONuibrWPRPpprr4ZkB4kEoLMfNuyH2+aEza3ScUA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/button/-/button-2.0.18.tgz}
     id: registry.npmmirror.com/@chakra-ui/button/2.0.18
     name: '@chakra-ui/button'
@@ -1878,12 +1878,12 @@ packages:
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/spinner': registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/spinner': registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/card@2.1.6(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/card@2.1.6(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-fFd/WAdRNVY/WOSQv4skpy0WeVhhI0f7dTY1Sm0jVl0KLmuP/GnpsWtKtqWjNcV00K963EXDyhlk6+9oxbP4gw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/card/-/card-2.1.6.tgz}
     id: registry.npmmirror.com/@chakra-ui/card/2.1.6
     name: '@chakra-ui/card'
@@ -1893,11 +1893,11 @@ packages:
       react: '>=18'
     dependencies:
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/checkbox@2.2.15(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/checkbox@2.2.15(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-Ju2yQjX8azgFa5f6VLPuwdGYobZ+rdbcYqjiks848JvPc75UsPhpS05cb4XlrKT7M16I8txDA5rPJdqqFicHCA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/checkbox/-/checkbox-2.2.15.tgz}
     id: registry.npmmirror.com/@chakra-ui/checkbox/2.2.15
     name: '@chakra-ui/checkbox'
@@ -1906,7 +1906,7 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-types': registry.npmmirror.com/@chakra-ui/react-types@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-callback-ref': registry.npmmirror.com/@chakra-ui/react-use-callback-ref@2.0.7(react@18.2.0)
@@ -1915,8 +1915,8 @@ packages:
       '@chakra-ui/react-use-safe-layout-effect': registry.npmmirror.com/@chakra-ui/react-use-safe-layout-effect@2.0.5(react@18.2.0)
       '@chakra-ui/react-use-update-effect': registry.npmmirror.com/@chakra-ui/react-use-update-effect@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
-      '@chakra-ui/visually-hidden': registry.npmmirror.com/@chakra-ui/visually-hidden@2.0.15(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/visually-hidden': registry.npmmirror.com/@chakra-ui/visually-hidden@2.0.15(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@zag-js/focus-visible': registry.npmmirror.com/@zag-js/focus-visible@0.2.2
       react: registry.npmmirror.com/react@18.2.0
     dev: false
@@ -1934,7 +1934,7 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-05YPXk456t1Xa3KpqTrvm+7smx+95dmaPiwjiBN3p7LHUQVHJd8ZXSDB0V+WKi419k3cVQeJUdU/azDO2f40sw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/close-button/-/close-button-2.0.17.tgz}
     id: registry.npmmirror.com/@chakra-ui/close-button/2.0.17
     name: '@chakra-ui/close-button'
@@ -1943,8 +1943,8 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -1960,7 +1960,7 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/control-box@2.0.13(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/control-box@2.0.13(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-FEyrU4crxati80KUF/+1Z1CU3eZK6Sa0Yv7Z/ydtz9/tvGblXW9NFanoomXAOvcIFLbaLQPPATm9Gmpr7VG05A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/control-box/-/control-box-2.0.13.tgz}
     id: registry.npmmirror.com/@chakra-ui/control-box/2.0.13
     name: '@chakra-ui/control-box'
@@ -1969,7 +1969,7 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -1987,11 +1987,11 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/css-reset@2.1.1(@emotion/react@11.10.5)(react@18.2.0):
-    resolution: {integrity: sha512-jwEOfIAWmQsnChHQTW/eRE+dfE4MjmhvSvoUug5nkV1pI7veC/20noFlIZxzi82EbiQI8Fs0+Jnusgxr2yaOHA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/css-reset/-/css-reset-2.1.1.tgz}
-    id: registry.npmmirror.com/@chakra-ui/css-reset/2.1.1
+  registry.npmmirror.com/@chakra-ui/css-reset@2.1.2(@emotion/react@11.10.5)(react@18.2.0):
+    resolution: {integrity: sha512-4ySTLd+3iRpp4lX0yI9Yo2uQm2f+qwYGNOZF0cNcfN+4UJCd3IsaWxYRR/Anz+M51NVldZbYzC+TEYC/kpJc4A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/css-reset/-/css-reset-2.1.2.tgz}
+    id: registry.npmmirror.com/@chakra-ui/css-reset/2.1.2
     name: '@chakra-ui/css-reset'
-    version: 2.1.1
+    version: 2.1.2
     peerDependencies:
       '@emotion/react': '>=10.0.35'
       react: '>=18'
@@ -2013,13 +2013,13 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/dom-utils@2.0.6:
-    resolution: {integrity: sha512-PVtDkPrDD5b8aoL6Atg7SLjkwhWb7BwMcLOF1L449L3nZN+DAO3nyAh6iUhZVJyunELj9d0r65CDlnMREyJZmA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/dom-utils/-/dom-utils-2.0.6.tgz}
+  registry.npmmirror.com/@chakra-ui/dom-utils@2.1.0:
+    resolution: {integrity: sha512-ZmF2qRa1QZ0CMLU8M1zCfmw29DmPNtfjR9iTo74U5FPr3i1aoAh7fbJ4qAlZ197Xw9eAW28tvzQuoVWeL5C7fQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/dom-utils/-/dom-utils-2.1.0.tgz}
     name: '@chakra-ui/dom-utils'
-    version: 2.0.6
+    version: 2.1.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/editable@3.0.0(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/editable@3.0.0(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-q/7C/TM3iLaoQKlEiM8AY565i9NoaXtS6N6N4HWIEL5mZJPbMeHKxrCHUZlHxYuQJqFOGc09ZPD9fAFx1GkYwQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/editable/-/editable-3.0.0.tgz}
     id: registry.npmmirror.com/@chakra-ui/editable/3.0.0
     name: '@chakra-ui/editable'
@@ -2037,7 +2037,7 @@ packages:
       '@chakra-ui/react-use-safe-layout-effect': registry.npmmirror.com/@chakra-ui/react-use-safe-layout-effect@2.0.5(react@18.2.0)
       '@chakra-ui/react-use-update-effect': registry.npmmirror.com/@chakra-ui/react-use-update-effect@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -2047,22 +2047,22 @@ packages:
     version: 2.0.8
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/focus-lock@2.0.16(@types/react@18.0.26)(react@18.2.0):
-    resolution: {integrity: sha512-UuAdGCPVrCa1lecoAvpOQD7JFT7a9RdmhKWhFt5ioIcekSLJcerdLHuuL3w0qz//8kd1/SOt7oP0aJqdAJQrCw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/focus-lock/-/focus-lock-2.0.16.tgz}
-    id: registry.npmmirror.com/@chakra-ui/focus-lock/2.0.16
+  registry.npmmirror.com/@chakra-ui/focus-lock@2.0.17(@types/react@18.0.26)(react@18.2.0):
+    resolution: {integrity: sha512-V+m4Ml9E8QY66DUpHX/imInVvz5XJ5zx59Tl0aNancXgeVY1Rt/ZdxuZdPLCAmPC/MF3GUOgnEA+WU8i+VL6Gw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/focus-lock/-/focus-lock-2.0.17.tgz}
+    id: registry.npmmirror.com/@chakra-ui/focus-lock/2.0.17
     name: '@chakra-ui/focus-lock'
-    version: 2.0.16
+    version: 2.0.17
     peerDependencies:
       react: '>=18'
     dependencies:
-      '@chakra-ui/dom-utils': registry.npmmirror.com/@chakra-ui/dom-utils@2.0.6
+      '@chakra-ui/dom-utils': registry.npmmirror.com/@chakra-ui/dom-utils@2.1.0
       react: registry.npmmirror.com/react@18.2.0
       react-focus-lock: registry.npmmirror.com/react-focus-lock@2.9.5(@types/react@18.0.26)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-I0a0jG01IAtRPccOXSNugyRdUAe8Dy40ctqedZvznMweOXzbMCF1m+sHPLdWeWC/VI13VoAispdPY0/zHOdjsQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/form-control/-/form-control-2.0.18.tgz}
     id: registry.npmmirror.com/@chakra-ui/form-control/2.0.18
     name: '@chakra-ui/form-control'
@@ -2071,12 +2071,12 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-types': registry.npmmirror.com/@chakra-ui/react-types@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -2095,7 +2095,7 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-RpA1X5Ptz8Mt39HSyEIW1wxAz2AXyf9H0JJ5HVx/dBdMZaGMDJ0HyyPBVci0m4RCoJuyG1HHG/DXJaVfUTVAeg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/icon/-/icon-3.0.16.tgz}
     id: registry.npmmirror.com/@chakra-ui/icon/3.0.16
     name: '@chakra-ui/icon'
@@ -2105,11 +2105,11 @@ packages:
       react: '>=18'
     dependencies:
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/image@2.0.16(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/image@2.0.16(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-iFypk1slgP3OK7VIPOtkB0UuiqVxNalgA59yoRM43xLIeZAEZpKngUVno4A2kFS61yKN0eIY4hXD3Xjm+25EJA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/image/-/image-2.0.16.tgz}
     id: registry.npmmirror.com/@chakra-ui/image/2.0.16
     name: '@chakra-ui/image'
@@ -2120,11 +2120,11 @@ packages:
     dependencies:
       '@chakra-ui/react-use-safe-layout-effect': registry.npmmirror.com/@chakra-ui/react-use-safe-layout-effect@2.0.5(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/input@2.0.22(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/input@2.0.22(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-dCIC0/Q7mjZf17YqgoQsnXn0bus6vgriTRn8VmxOc+WcVl+KBSTBWujGrS5yu85WIFQ0aeqQvziDnDQybPqAbA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/input/-/input-2.0.22.tgz}
     id: registry.npmmirror.com/@chakra-ui/input/2.0.22
     name: '@chakra-ui/input'
@@ -2133,31 +2133,31 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/object-utils': registry.npmmirror.com/@chakra-ui/object-utils@2.1.0
       '@chakra-ui/react-children-utils': registry.npmmirror.com/@chakra-ui/react-children-utils@2.0.6(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/layout@2.1.19(@chakra-ui/system@2.5.6)(react@18.2.0):
-    resolution: {integrity: sha512-g7xMVKbQFCODwKCkEF4/OmdPsr/fAavWUV+DGc1ZWVPdroUlg1FGTpK9bOTwkC/gnko7cMClILA+BIPR3Ylu9Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/layout/-/layout-2.1.19.tgz}
-    id: registry.npmmirror.com/@chakra-ui/layout/2.1.19
+  registry.npmmirror.com/@chakra-ui/layout@2.2.0(@chakra-ui/system@2.5.8)(react@18.2.0):
+    resolution: {integrity: sha512-WvfsWQjqzbCxv7pbpPGVKxj9eQr7MC2i37ag4Wn7ClIG7uPuwHYTUWOnjnu27O3H/zA4cRVZ4Hs3GpSPbojZFQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/layout/-/layout-2.2.0.tgz}
+    id: registry.npmmirror.com/@chakra-ui/layout/2.2.0
     name: '@chakra-ui/layout'
-    version: 2.1.19
+    version: 2.2.0
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
       '@chakra-ui/breakpoint-utils': registry.npmmirror.com/@chakra-ui/breakpoint-utils@2.0.8
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/object-utils': registry.npmmirror.com/@chakra-ui/object-utils@2.1.0
       '@chakra-ui/react-children-utils': registry.npmmirror.com/@chakra-ui/react-children-utils@2.0.6(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -2178,7 +2178,7 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/media-query@3.2.12(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/media-query@3.2.12(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-8pSLDf3oxxhFrhd40rs7vSeIBfvOmIKHA7DJlGUC/y+9irD24ZwgmCtFnn+y3gI47hTJsopbSX+wb8nr7XPswA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/media-query/-/media-query-3.2.12.tgz}
     id: registry.npmmirror.com/@chakra-ui/media-query/3.2.12
     name: '@chakra-ui/media-query'
@@ -2190,15 +2190,15 @@ packages:
       '@chakra-ui/breakpoint-utils': registry.npmmirror.com/@chakra-ui/breakpoint-utils@2.0.8
       '@chakra-ui/react-env': registry.npmmirror.com/@chakra-ui/react-env@3.0.0(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/menu@2.1.13(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0):
-    resolution: {integrity: sha512-O7ESUIxbqWINRaO9jkPbZ8vJVW+lxZIZ9K0q828XgYBMh5o7BS82XhT7li7CxWaSQNqBxS4XE9BU7btp1ADMrQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/menu/-/menu-2.1.13.tgz}
-    id: registry.npmmirror.com/@chakra-ui/menu/2.1.13
+  registry.npmmirror.com/@chakra-ui/menu@2.1.15(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0):
+    resolution: {integrity: sha512-+1fh7KBKZyhy8wi7Q6nQAzrvjM6xggyhGMnSna0rt6FJVA2jlfkjb5FozyIVPnkfJKjkKd8THVhrs9E7pHNV/w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/menu/-/menu-2.1.15.tgz}
+    id: registry.npmmirror.com/@chakra-ui/menu/2.1.15
     name: '@chakra-ui/menu'
-    version: 2.1.13
+    version: 2.1.15
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       framer-motion: '>=4.0.0'
@@ -2207,42 +2207,42 @@ packages:
       '@chakra-ui/clickable': registry.npmmirror.com/@chakra-ui/clickable@2.0.14(react@18.2.0)
       '@chakra-ui/descendant': registry.npmmirror.com/@chakra-ui/descendant@3.0.14(react@18.2.0)
       '@chakra-ui/lazy-utils': registry.npmmirror.com/@chakra-ui/lazy-utils@2.0.5
-      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.13(react@18.2.0)
+      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.14(react@18.2.0)
       '@chakra-ui/react-children-utils': registry.npmmirror.com/@chakra-ui/react-children-utils@2.0.6(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
-      '@chakra-ui/react-use-animation-state': registry.npmmirror.com/@chakra-ui/react-use-animation-state@2.0.8(react@18.2.0)
+      '@chakra-ui/react-use-animation-state': registry.npmmirror.com/@chakra-ui/react-use-animation-state@2.0.9(react@18.2.0)
       '@chakra-ui/react-use-controllable-state': registry.npmmirror.com/@chakra-ui/react-use-controllable-state@2.0.8(react@18.2.0)
       '@chakra-ui/react-use-disclosure': registry.npmmirror.com/@chakra-ui/react-use-disclosure@2.0.8(react@18.2.0)
-      '@chakra-ui/react-use-focus-effect': registry.npmmirror.com/@chakra-ui/react-use-focus-effect@2.0.10(react@18.2.0)
+      '@chakra-ui/react-use-focus-effect': registry.npmmirror.com/@chakra-ui/react-use-focus-effect@2.0.11(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-outside-click': registry.npmmirror.com/@chakra-ui/react-use-outside-click@2.1.0(react@18.2.0)
       '@chakra-ui/react-use-update-effect': registry.npmmirror.com/@chakra-ui/react-use-update-effect@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       '@chakra-ui/transition': registry.npmmirror.com/@chakra-ui/transition@2.0.16(framer-motion@10.12.16)(react@18.2.0)
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/modal@2.2.11(@chakra-ui/system@2.5.6)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-2J0ZUV5tEzkPiawdkgPz6bmex7NXAde1VXooMwdvK+vuT8PV3U61yorTJOZVLdw7TjjI1Yo94mzsp6UwBud43Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/modal/-/modal-2.2.11.tgz}
-    id: registry.npmmirror.com/@chakra-ui/modal/2.2.11
+  registry.npmmirror.com/@chakra-ui/modal@2.2.12(@chakra-ui/system@2.5.8)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-F1nNmYGvyqlmxidbwaBM3y57NhZ/Qeyc8BE9tb1FL1v9nxQhkfrPvMQ9miK0O1syPN6aZ5MMj+uD3AsRFE+/tA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/modal/-/modal-2.2.12.tgz}
+    id: registry.npmmirror.com/@chakra-ui/modal/2.2.12
     name: '@chakra-ui/modal'
-    version: 2.2.11
+    version: 2.2.12
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       framer-motion: '>=4.0.0'
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/focus-lock': registry.npmmirror.com/@chakra-ui/focus-lock@2.0.16(@types/react@18.0.26)(react@18.2.0)
+      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/focus-lock': registry.npmmirror.com/@chakra-ui/focus-lock@2.0.17(@types/react@18.0.26)(react@18.2.0)
       '@chakra-ui/portal': registry.npmmirror.com/@chakra-ui/portal@2.0.16(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-types': registry.npmmirror.com/@chakra-ui/react-types@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       '@chakra-ui/transition': registry.npmmirror.com/@chakra-ui/transition@2.0.16(framer-motion@10.12.16)(react@18.2.0)
       aria-hidden: registry.npmmirror.com/aria-hidden@1.2.3
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
@@ -2253,7 +2253,7 @@ packages:
       - '@types/react'
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/next-js@2.1.4(@chakra-ui/react@2.6.0)(@emotion/react@11.10.5)(next@13.4.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/next-js@2.1.4(@chakra-ui/react@2.7.1)(@emotion/react@11.10.5)(next@13.4.9)(react@18.2.0):
     resolution: {integrity: sha512-qPmpZSA6ONozcD8gC8fyuEPqweZqk1Y4ar/hbfUDLMdCCRsU+aigN6ay2HBBn3kPzzMOE6BUlkgvij8uB8smxQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/next-js/-/next-js-2.1.4.tgz}
     id: registry.npmmirror.com/@chakra-ui/next-js/2.1.4
     name: '@chakra-ui/next-js'
@@ -2264,14 +2264,14 @@ packages:
       next: '>=13'
       react: '>=18'
     dependencies:
-      '@chakra-ui/react': registry.npmmirror.com/@chakra-ui/react@2.6.0(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/react': registry.npmmirror.com/@chakra-ui/react@2.7.1(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
       '@emotion/cache': registry.npmmirror.com/@emotion/cache@11.11.0
       '@emotion/react': registry.npmmirror.com/@emotion/react@11.10.5(@babel/core@7.22.8)(@types/react@18.0.26)(react@18.2.0)
-      next: registry.npmmirror.com/next@13.4.6(@babel/core@7.22.8)(react-dom@18.2.0)(react@18.2.0)
+      next: registry.npmmirror.com/next@13.4.9(@babel/core@7.22.8)(react-dom@18.2.0)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/number-input@2.0.19(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/number-input@2.0.19(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-HDaITvtMEqOauOrCPsARDxKD9PSHmhWywpcyCSOX0lMe4xx2aaGhU0QQFhsJsykj8Er6pytMv6t0KZksdDv3YA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/number-input/-/number-input-2.0.19.tgz}
     id: registry.npmmirror.com/@chakra-ui/number-input/2.0.19
     name: '@chakra-ui/number-input'
@@ -2281,8 +2281,8 @@ packages:
       react: '>=18'
     dependencies:
       '@chakra-ui/counter': registry.npmmirror.com/@chakra-ui/counter@2.0.14(react@18.2.0)
-      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-types': registry.npmmirror.com/@chakra-ui/react-types@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-callback-ref': registry.npmmirror.com/@chakra-ui/react-use-callback-ref@2.0.7(react@18.2.0)
@@ -2292,7 +2292,7 @@ packages:
       '@chakra-ui/react-use-safe-layout-effect': registry.npmmirror.com/@chakra-ui/react-use-safe-layout-effect@2.0.5(react@18.2.0)
       '@chakra-ui/react-use-update-effect': registry.npmmirror.com/@chakra-ui/react-use-update-effect@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -2308,7 +2308,7 @@ packages:
     version: 2.1.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/pin-input@2.0.20(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/pin-input@2.0.20(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-IHVmerrtHN8F+jRB3W1HnMir1S1TUCWhI7qDInxqPtoRffHt6mzZgLZ0izx8p1fD4HkW4c1d4/ZLEz9uH9bBRg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/pin-input/-/pin-input-2.0.20.tgz}
     id: registry.npmmirror.com/@chakra-ui/pin-input/2.0.20
     name: '@chakra-ui/pin-input'
@@ -2323,41 +2323,41 @@ packages:
       '@chakra-ui/react-use-controllable-state': registry.npmmirror.com/@chakra-ui/react-use-controllable-state@2.0.8(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/popover@2.1.10(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0):
-    resolution: {integrity: sha512-UCEW+zp2GEuNYvyK42+cQECSMSBFWcA0CD7Ip6TUL32BLF8EkYz5U5Gdx5Nhd/mlSE2lxo7c72/LOQd0emsO/A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/popover/-/popover-2.1.10.tgz}
-    id: registry.npmmirror.com/@chakra-ui/popover/2.1.10
+  registry.npmmirror.com/@chakra-ui/popover@2.1.12(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0):
+    resolution: {integrity: sha512-Corh8trA1f3ydcMQqomgSvYNNhAlpxiBpMY2sglwYazOJcueHA8CI05cJVD0T/wwoTob7BShabhCGFZThn61Ng==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/popover/-/popover-2.1.12.tgz}
+    id: registry.npmmirror.com/@chakra-ui/popover/2.1.12
     name: '@chakra-ui/popover'
-    version: 2.1.10
+    version: 2.1.12
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       framer-motion: '>=4.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/lazy-utils': registry.npmmirror.com/@chakra-ui/lazy-utils@2.0.5
-      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.13(react@18.2.0)
+      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.14(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-types': registry.npmmirror.com/@chakra-ui/react-types@2.0.7(react@18.2.0)
-      '@chakra-ui/react-use-animation-state': registry.npmmirror.com/@chakra-ui/react-use-animation-state@2.0.8(react@18.2.0)
+      '@chakra-ui/react-use-animation-state': registry.npmmirror.com/@chakra-ui/react-use-animation-state@2.0.9(react@18.2.0)
       '@chakra-ui/react-use-disclosure': registry.npmmirror.com/@chakra-ui/react-use-disclosure@2.0.8(react@18.2.0)
-      '@chakra-ui/react-use-focus-effect': registry.npmmirror.com/@chakra-ui/react-use-focus-effect@2.0.10(react@18.2.0)
+      '@chakra-ui/react-use-focus-effect': registry.npmmirror.com/@chakra-ui/react-use-focus-effect@2.0.11(react@18.2.0)
       '@chakra-ui/react-use-focus-on-pointer-down': registry.npmmirror.com/@chakra-ui/react-use-focus-on-pointer-down@2.0.6(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/popper@3.0.13(react@18.2.0):
-    resolution: {integrity: sha512-FwtmYz80Ju8oK3Z1HQfisUE7JIMmDsCQsRBu6XuJ3TFQnBHit73yjZmxKjuRJ4JgyT4WBnZoTF3ATbRKSagBeg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/popper/-/popper-3.0.13.tgz}
-    id: registry.npmmirror.com/@chakra-ui/popper/3.0.13
+  registry.npmmirror.com/@chakra-ui/popper@3.0.14(react@18.2.0):
+    resolution: {integrity: sha512-RDMmmSfjsmHJbVn2agDyoJpTbQK33fxx//njwJdeyM0zTG/3/4xjI/Cxru3acJ2Y+1jFGmPqhO81stFjnbtfIw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/popper/-/popper-3.0.14.tgz}
+    id: registry.npmmirror.com/@chakra-ui/popper/3.0.14
     name: '@chakra-ui/popper'
-    version: 3.0.13
+    version: 3.0.14
     peerDependencies:
       react: '>=18'
     dependencies:
@@ -2382,7 +2382,7 @@ packages:
       react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/progress@2.1.6(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/progress@2.1.6(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-hHh5Ysv4z6bK+j2GJbi/FT9CVyto2PtNUNwBmr3oNMVsoOUMoRjczfXvvYqp0EHr9PCpxqrq7sRwgQXUzhbDSw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/progress/-/progress-2.1.6.tgz}
     id: registry.npmmirror.com/@chakra-ui/progress/2.1.6
     name: '@chakra-ui/progress'
@@ -2392,25 +2392,25 @@ packages:
       react: '>=18'
     dependencies:
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/provider@2.2.3(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-vLvs69tkq3D7sjmGV5ry8c93TKK0K5XfT2hTWr0QRPRvsccDSoEbYtCI8lb36kOZdXhYa/K8nd81vM+UBp0tzw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/provider/-/provider-2.2.3.tgz}
-    id: registry.npmmirror.com/@chakra-ui/provider/2.2.3
+  registry.npmmirror.com/@chakra-ui/provider@2.3.0(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-vKgmjoLVS3NnHW8RSYwmhhda2ZTi3fQc1egkYSVwngGky4CsN15I+XDhxJitVd66H41cjah/UNJyoeq7ACseLA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/provider/-/provider-2.3.0.tgz}
+    id: registry.npmmirror.com/@chakra-ui/provider/2.3.0
     name: '@chakra-ui/provider'
-    version: 2.2.3
+    version: 2.3.0
     peerDependencies:
       '@emotion/react': ^11.0.0
       '@emotion/styled': ^11.0.0
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@chakra-ui/css-reset': registry.npmmirror.com/@chakra-ui/css-reset@2.1.1(@emotion/react@11.10.5)(react@18.2.0)
+      '@chakra-ui/css-reset': registry.npmmirror.com/@chakra-ui/css-reset@2.1.2(@emotion/react@11.10.5)(react@18.2.0)
       '@chakra-ui/portal': registry.npmmirror.com/@chakra-ui/portal@2.0.16(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/react-env': registry.npmmirror.com/@chakra-ui/react-env@3.0.0(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       '@chakra-ui/utils': registry.npmmirror.com/@chakra-ui/utils@2.0.15
       '@emotion/react': registry.npmmirror.com/@emotion/react@11.10.5(@babel/core@7.22.8)(@types/react@18.0.26)(react@18.2.0)
       '@emotion/styled': registry.npmmirror.com/@emotion/styled@11.10.5(@babel/core@7.22.8)(@emotion/react@11.10.5)(@types/react@18.0.26)(react@18.2.0)
@@ -2418,7 +2418,7 @@ packages:
       react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/radio@2.0.22(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/radio@2.0.22(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-GsQ5WAnLwivWl6gPk8P1x+tCcpVakCt5R5T0HumF7DGPXKdJbjS+RaFySrbETmyTJsKY4QrfXn+g8CWVrMjPjw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/radio/-/radio-2.0.22.tgz}
     id: registry.npmmirror.com/@chakra-ui/radio/2.0.22
     name: '@chakra-ui/radio'
@@ -2427,12 +2427,12 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-types': registry.npmmirror.com/@chakra-ui/react-types@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       '@zag-js/focus-visible': registry.npmmirror.com/@zag-js/focus-visible@0.2.2
       react: registry.npmmirror.com/react@18.2.0
     dev: false
@@ -2482,15 +2482,15 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/react-use-animation-state@2.0.8(react@18.2.0):
-    resolution: {integrity: sha512-xv9zSF2Rd1mHWQ+m5DLBWeh4atF8qrNvsOs3MNrvxKYBS3f79N3pqcQGrWAEvirXWXfiCeje2VAkEggqFRIo+Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/react-use-animation-state/-/react-use-animation-state-2.0.8.tgz}
-    id: registry.npmmirror.com/@chakra-ui/react-use-animation-state/2.0.8
+  registry.npmmirror.com/@chakra-ui/react-use-animation-state@2.0.9(react@18.2.0):
+    resolution: {integrity: sha512-WFoD5OG03PBmzJCoRwM8rVfU442AvKBPPgA0yGGlKioH29OGuX7W78Ml+cYdXxonTiB03YSRZzUwaUnP4wAy1Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/react-use-animation-state/-/react-use-animation-state-2.0.9.tgz}
+    id: registry.npmmirror.com/@chakra-ui/react-use-animation-state/2.0.9
     name: '@chakra-ui/react-use-animation-state'
-    version: 2.0.8
+    version: 2.0.9
     peerDependencies:
       react: '>=18'
     dependencies:
-      '@chakra-ui/dom-utils': registry.npmmirror.com/@chakra-ui/dom-utils@2.0.6
+      '@chakra-ui/dom-utils': registry.npmmirror.com/@chakra-ui/dom-utils@2.1.0
       '@chakra-ui/react-use-event-listener': registry.npmmirror.com/@chakra-ui/react-use-event-listener@2.0.7(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
@@ -2542,15 +2542,15 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/react-use-focus-effect@2.0.10(react@18.2.0):
-    resolution: {integrity: sha512-HswfpzjP8gCQM3/fbeR+8wrYqt0B3ChnVTqssnYXqp9Fa/5Y1Kx1ZADUWW93zMs5SF7hIEuNt8uKeh1/3HTcqQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/react-use-focus-effect/-/react-use-focus-effect-2.0.10.tgz}
-    id: registry.npmmirror.com/@chakra-ui/react-use-focus-effect/2.0.10
+  registry.npmmirror.com/@chakra-ui/react-use-focus-effect@2.0.11(react@18.2.0):
+    resolution: {integrity: sha512-/zadgjaCWD50TfuYsO1vDS2zSBs2p/l8P2DPEIA8FuaowbBubKrk9shKQDWmbfDU7KArGxPxrvo+VXvskPPjHw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/react-use-focus-effect/-/react-use-focus-effect-2.0.11.tgz}
+    id: registry.npmmirror.com/@chakra-ui/react-use-focus-effect/2.0.11
     name: '@chakra-ui/react-use-focus-effect'
-    version: 2.0.10
+    version: 2.0.11
     peerDependencies:
       react: '>=18'
     dependencies:
-      '@chakra-ui/dom-utils': registry.npmmirror.com/@chakra-ui/dom-utils@2.0.6
+      '@chakra-ui/dom-utils': registry.npmmirror.com/@chakra-ui/dom-utils@2.1.0
       '@chakra-ui/react-use-event-listener': registry.npmmirror.com/@chakra-ui/react-use-event-listener@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-safe-layout-effect': registry.npmmirror.com/@chakra-ui/react-use-safe-layout-effect@2.0.5(react@18.2.0)
       '@chakra-ui/react-use-update-effect': registry.npmmirror.com/@chakra-ui/react-use-update-effect@2.0.7(react@18.2.0)
@@ -2698,11 +2698,11 @@ packages:
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/react@2.6.0(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-dhufu/A4O5tQ65p//XGfvUqSrf0qRAgTmFRlBZ7HucyxF5RStQ65FXiTXV0s4Pj0X5hgSJm3oCasV6UD6MXYbw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/react/-/react-2.6.0.tgz}
-    id: registry.npmmirror.com/@chakra-ui/react/2.6.0
+  registry.npmmirror.com/@chakra-ui/react@2.7.1(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-uIYIAg+gnUoRbgdCfSEVvQnrEz0oWWXATGGSQpxmuJovNVyZKnX/Xug7NkWQfBUJPYRSG+VB69ZmsAFpyLSMtA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/react/-/react-2.7.1.tgz}
+    id: registry.npmmirror.com/@chakra-ui/react/2.7.1
     name: '@chakra-ui/react'
-    version: 2.6.0
+    version: 2.7.1
     peerDependencies:
       '@emotion/react': ^11.0.0
       '@emotion/styled': ^11.0.0
@@ -2710,58 +2710,59 @@ packages:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@chakra-ui/accordion': registry.npmmirror.com/@chakra-ui/accordion@2.1.11(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0)
-      '@chakra-ui/alert': registry.npmmirror.com/@chakra-ui/alert@2.1.0(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/avatar': registry.npmmirror.com/@chakra-ui/avatar@2.2.9(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/breadcrumb': registry.npmmirror.com/@chakra-ui/breadcrumb@2.1.5(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/button': registry.npmmirror.com/@chakra-ui/button@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/card': registry.npmmirror.com/@chakra-ui/card@2.1.6(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/checkbox': registry.npmmirror.com/@chakra-ui/checkbox@2.2.15(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/control-box': registry.npmmirror.com/@chakra-ui/control-box@2.0.13(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/accordion': registry.npmmirror.com/@chakra-ui/accordion@2.2.0(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0)
+      '@chakra-ui/alert': registry.npmmirror.com/@chakra-ui/alert@2.1.0(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/avatar': registry.npmmirror.com/@chakra-ui/avatar@2.2.11(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/breadcrumb': registry.npmmirror.com/@chakra-ui/breadcrumb@2.1.5(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/button': registry.npmmirror.com/@chakra-ui/button@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/card': registry.npmmirror.com/@chakra-ui/card@2.1.6(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/checkbox': registry.npmmirror.com/@chakra-ui/checkbox@2.2.15(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/control-box': registry.npmmirror.com/@chakra-ui/control-box@2.0.13(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/counter': registry.npmmirror.com/@chakra-ui/counter@2.0.14(react@18.2.0)
-      '@chakra-ui/css-reset': registry.npmmirror.com/@chakra-ui/css-reset@2.1.1(@emotion/react@11.10.5)(react@18.2.0)
-      '@chakra-ui/editable': registry.npmmirror.com/@chakra-ui/editable@3.0.0(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/focus-lock': registry.npmmirror.com/@chakra-ui/focus-lock@2.0.16(@types/react@18.0.26)(react@18.2.0)
-      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/css-reset': registry.npmmirror.com/@chakra-ui/css-reset@2.1.2(@emotion/react@11.10.5)(react@18.2.0)
+      '@chakra-ui/editable': registry.npmmirror.com/@chakra-ui/editable@3.0.0(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/focus-lock': registry.npmmirror.com/@chakra-ui/focus-lock@2.0.17(@types/react@18.0.26)(react@18.2.0)
+      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/hooks': registry.npmmirror.com/@chakra-ui/hooks@2.2.0(react@18.2.0)
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/image': registry.npmmirror.com/@chakra-ui/image@2.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/input': registry.npmmirror.com/@chakra-ui/input@2.0.22(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/layout': registry.npmmirror.com/@chakra-ui/layout@2.1.19(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/image': registry.npmmirror.com/@chakra-ui/image@2.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/input': registry.npmmirror.com/@chakra-ui/input@2.0.22(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/layout': registry.npmmirror.com/@chakra-ui/layout@2.2.0(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/live-region': registry.npmmirror.com/@chakra-ui/live-region@2.0.13(react@18.2.0)
-      '@chakra-ui/media-query': registry.npmmirror.com/@chakra-ui/media-query@3.2.12(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/menu': registry.npmmirror.com/@chakra-ui/menu@2.1.13(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0)
-      '@chakra-ui/modal': registry.npmmirror.com/@chakra-ui/modal@2.2.11(@chakra-ui/system@2.5.6)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
-      '@chakra-ui/number-input': registry.npmmirror.com/@chakra-ui/number-input@2.0.19(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/pin-input': registry.npmmirror.com/@chakra-ui/pin-input@2.0.20(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/popover': registry.npmmirror.com/@chakra-ui/popover@2.1.10(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0)
-      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.13(react@18.2.0)
+      '@chakra-ui/media-query': registry.npmmirror.com/@chakra-ui/media-query@3.2.12(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/menu': registry.npmmirror.com/@chakra-ui/menu@2.1.15(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0)
+      '@chakra-ui/modal': registry.npmmirror.com/@chakra-ui/modal@2.2.12(@chakra-ui/system@2.5.8)(@types/react@18.0.26)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/number-input': registry.npmmirror.com/@chakra-ui/number-input@2.0.19(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/pin-input': registry.npmmirror.com/@chakra-ui/pin-input@2.0.20(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/popover': registry.npmmirror.com/@chakra-ui/popover@2.1.12(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0)
+      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.14(react@18.2.0)
       '@chakra-ui/portal': registry.npmmirror.com/@chakra-ui/portal@2.0.16(react-dom@18.2.0)(react@18.2.0)
-      '@chakra-ui/progress': registry.npmmirror.com/@chakra-ui/progress@2.1.6(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/provider': registry.npmmirror.com/@chakra-ui/provider@2.2.3(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react-dom@18.2.0)(react@18.2.0)
-      '@chakra-ui/radio': registry.npmmirror.com/@chakra-ui/radio@2.0.22(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/progress': registry.npmmirror.com/@chakra-ui/progress@2.1.6(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/provider': registry.npmmirror.com/@chakra-ui/provider@2.3.0(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/radio': registry.npmmirror.com/@chakra-ui/radio@2.0.22(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-env': registry.npmmirror.com/@chakra-ui/react-env@3.0.0(react@18.2.0)
-      '@chakra-ui/select': registry.npmmirror.com/@chakra-ui/select@2.0.19(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/skeleton': registry.npmmirror.com/@chakra-ui/skeleton@2.0.24(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/slider': registry.npmmirror.com/@chakra-ui/slider@2.0.23(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/spinner': registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/stat': registry.npmmirror.com/@chakra-ui/stat@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/stepper': registry.npmmirror.com/@chakra-ui/stepper@2.1.0(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.0
-      '@chakra-ui/switch': registry.npmmirror.com/@chakra-ui/switch@2.0.27(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
-      '@chakra-ui/table': registry.npmmirror.com/@chakra-ui/table@2.0.17(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/tabs': registry.npmmirror.com/@chakra-ui/tabs@2.1.9(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/tag': registry.npmmirror.com/@chakra-ui/tag@3.0.0(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/textarea': registry.npmmirror.com/@chakra-ui/textarea@2.0.19(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/theme': registry.npmmirror.com/@chakra-ui/theme@3.1.0(@chakra-ui/styled-system@2.9.0)
-      '@chakra-ui/theme-utils': registry.npmmirror.com/@chakra-ui/theme-utils@2.0.16
-      '@chakra-ui/toast': registry.npmmirror.com/@chakra-ui/toast@6.1.2(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
-      '@chakra-ui/tooltip': registry.npmmirror.com/@chakra-ui/tooltip@2.2.7(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/select': registry.npmmirror.com/@chakra-ui/select@2.0.19(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/skeleton': registry.npmmirror.com/@chakra-ui/skeleton@2.0.24(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/skip-nav': registry.npmmirror.com/@chakra-ui/skip-nav@2.0.15(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/slider': registry.npmmirror.com/@chakra-ui/slider@2.0.25(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/spinner': registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/stat': registry.npmmirror.com/@chakra-ui/stat@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/stepper': registry.npmmirror.com/@chakra-ui/stepper@2.2.0(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.1
+      '@chakra-ui/switch': registry.npmmirror.com/@chakra-ui/switch@2.0.27(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/table': registry.npmmirror.com/@chakra-ui/table@2.0.17(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/tabs': registry.npmmirror.com/@chakra-ui/tabs@2.1.9(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/tag': registry.npmmirror.com/@chakra-ui/tag@3.0.0(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/textarea': registry.npmmirror.com/@chakra-ui/textarea@2.0.19(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/theme': registry.npmmirror.com/@chakra-ui/theme@3.1.2(@chakra-ui/styled-system@2.9.1)
+      '@chakra-ui/theme-utils': registry.npmmirror.com/@chakra-ui/theme-utils@2.0.18
+      '@chakra-ui/toast': registry.npmmirror.com/@chakra-ui/toast@6.1.4(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
+      '@chakra-ui/tooltip': registry.npmmirror.com/@chakra-ui/tooltip@2.2.9(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/transition': registry.npmmirror.com/@chakra-ui/transition@2.0.16(framer-motion@10.12.16)(react@18.2.0)
       '@chakra-ui/utils': registry.npmmirror.com/@chakra-ui/utils@2.0.15
-      '@chakra-ui/visually-hidden': registry.npmmirror.com/@chakra-ui/visually-hidden@2.0.15(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/visually-hidden': registry.npmmirror.com/@chakra-ui/visually-hidden@2.0.15(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@emotion/react': registry.npmmirror.com/@emotion/react@11.10.5(@babel/core@7.22.8)(@types/react@18.0.26)(react@18.2.0)
       '@emotion/styled': registry.npmmirror.com/@emotion/styled@11.10.5(@babel/core@7.22.8)(@emotion/react@11.10.5)(@types/react@18.0.26)(react@18.2.0)
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
@@ -2771,7 +2772,7 @@ packages:
       - '@types/react'
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/select@2.0.19(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/select@2.0.19(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-eAlFh+JhwtJ17OrB6fO6gEAGOMH18ERNrXLqWbYLrs674Le7xuREgtuAYDoxUzvYXYYTTdOJtVbcHGriI3o6rA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/select/-/select-2.0.19.tgz}
     id: registry.npmmirror.com/@chakra-ui/select/2.0.19
     name: '@chakra-ui/select'
@@ -2780,9 +2781,9 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -2792,7 +2793,7 @@ packages:
     version: 2.0.5
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/skeleton@2.0.24(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/skeleton@2.0.24(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-1jXtVKcl/jpbrJlc/TyMsFyI651GTXY5ma30kWyTXoby2E+cxbV6OR8GB/NMZdGxbQBax8/VdtYVjI0n+OBqWA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/skeleton/-/skeleton-2.0.24.tgz}
     id: registry.npmmirror.com/@chakra-ui/skeleton/2.0.24
     name: '@chakra-ui/skeleton'
@@ -2801,18 +2802,31 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/media-query': registry.npmmirror.com/@chakra-ui/media-query@3.2.12(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/media-query': registry.npmmirror.com/@chakra-ui/media-query@3.2.12(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-use-previous': registry.npmmirror.com/@chakra-ui/react-use-previous@2.0.5(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/slider@2.0.23(@chakra-ui/system@2.5.6)(react@18.2.0):
-    resolution: {integrity: sha512-/eyRUXLla+ZdBUPXpakE3SAS2JS8mIJR6qcUYiPVKSpRAi6tMyYeQijAXn2QC1AUVd2JrG8Pz+1Jy7Po3uA7cA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/slider/-/slider-2.0.23.tgz}
-    id: registry.npmmirror.com/@chakra-ui/slider/2.0.23
+  registry.npmmirror.com/@chakra-ui/skip-nav@2.0.15(@chakra-ui/system@2.5.8)(react@18.2.0):
+    resolution: {integrity: sha512-5UtmlnV4BmIgEk6lQ0h81JEYhPX04wJEk5ZMoilQ2zEQYL6TkVVHkhRXyc1Zfq76hmHuZPXZV/yJeTecj6jIrA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/skip-nav/-/skip-nav-2.0.15.tgz}
+    id: registry.npmmirror.com/@chakra-ui/skip-nav/2.0.15
+    name: '@chakra-ui/skip-nav'
+    version: 2.0.15
+    peerDependencies:
+      '@chakra-ui/system': '>=2.0.0'
+      react: '>=18'
+    dependencies:
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      react: registry.npmmirror.com/react@18.2.0
+    dev: false
+
+  registry.npmmirror.com/@chakra-ui/slider@2.0.25(@chakra-ui/system@2.5.8)(react@18.2.0):
+    resolution: {integrity: sha512-FnWSi0AIXP+9sHMCPboOKGqm902k8dJtsJ7tu3D0AcKkE62WtYLZ2sTqvwJxCfSl4KqVI1i571SrF9WadnnJ8w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/slider/-/slider-2.0.25.tgz}
+    id: registry.npmmirror.com/@chakra-ui/slider/2.0.25
     name: '@chakra-ui/slider'
-    version: 2.0.23
+    version: 2.0.25
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
@@ -2827,11 +2841,11 @@ packages:
       '@chakra-ui/react-use-pan-event': registry.npmmirror.com/@chakra-ui/react-use-pan-event@2.0.9(react@18.2.0)
       '@chakra-ui/react-use-size': registry.npmmirror.com/@chakra-ui/react-use-size@2.0.10(react@18.2.0)
       '@chakra-ui/react-use-update-effect': registry.npmmirror.com/@chakra-ui/react-use-update-effect@2.0.7(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/spinner@2.0.13(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-T1/aSkVpUIuiYyrjfn1+LsQEG7Onbi1UE9ccS/evgf61Dzy4GgTXQUnDuWFSgpV58owqirqOu6jn/9eCwDlzlg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/spinner/-/spinner-2.0.13.tgz}
     id: registry.npmmirror.com/@chakra-ui/spinner/2.0.13
     name: '@chakra-ui/spinner'
@@ -2841,11 +2855,11 @@ packages:
       react: '>=18'
     dependencies:
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/stat@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/stat@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-wKyfBqhVlIs9bkSerUc6F9KJMw0yTIEKArW7dejWwzToCLPr47u+CtYO6jlJHV6lRvkhi4K4Qc6pyvtJxZ3VpA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/stat/-/stat-2.0.18.tgz}
     id: registry.npmmirror.com/@chakra-ui/stat/2.0.18
     name: '@chakra-ui/stat'
@@ -2854,40 +2868,40 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/stepper@2.1.0(@chakra-ui/system@2.5.6)(react@18.2.0):
-    resolution: {integrity: sha512-Xo/3U+nduhLWNUAAQ0XuIeJjXhSCrxyEJ0PSGwR+2I8PJq82GDIxXjvfpeDLCHoB225l3Wyuy4paeIHkUQhDxA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/stepper/-/stepper-2.1.0.tgz}
-    id: registry.npmmirror.com/@chakra-ui/stepper/2.1.0
+  registry.npmmirror.com/@chakra-ui/stepper@2.2.0(@chakra-ui/system@2.5.8)(react@18.2.0):
+    resolution: {integrity: sha512-8ZLxV39oghSVtOUGK8dX8Z6sWVSQiKVmsK4c3OQDa8y2TvxP0VtFD0Z5U1xJlOjQMryZRWhGj9JBc3iQLukuGg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/stepper/-/stepper-2.2.0.tgz}
+    id: registry.npmmirror.com/@chakra-ui/stepper/2.2.0
     name: '@chakra-ui/stepper'
-    version: 2.1.0
+    version: 2.2.0
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/styled-system@2.9.0:
-    resolution: {integrity: sha512-rToN30eOezrTZ5qBHmWqEwsYPenHtc3WU6ODAfMUwNnmCJQiu2erRGv8JwIjmRJnKSOEnNKccI2UXe2EwI6+JA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/styled-system/-/styled-system-2.9.0.tgz}
+  registry.npmmirror.com/@chakra-ui/styled-system@2.9.1:
+    resolution: {integrity: sha512-jhYKBLxwOPi9/bQt9kqV3ELa/4CjmNNruTyXlPp5M0v0+pDMUngPp48mVLoskm9RKZGE0h1qpvj/jZ3K7c7t8w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/styled-system/-/styled-system-2.9.1.tgz}
     name: '@chakra-ui/styled-system'
-    version: 2.9.0
+    version: 2.9.1
     dependencies:
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
       csstype: registry.npmmirror.com/csstype@3.1.2
       lodash.mergewith: registry.npmmirror.com/lodash.mergewith@4.6.2
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/switch@2.0.27(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/switch@2.0.27(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react@18.2.0):
     resolution: {integrity: sha512-z76y2fxwMlvRBrC5W8xsZvo3gP+zAEbT3Nqy5P8uh/IPd5OvDsGeac90t5cgnQTyxMOpznUNNK+1eUZqtLxWnQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/switch/-/switch-2.0.27.tgz}
     id: registry.npmmirror.com/@chakra-ui/switch/2.0.27
     name: '@chakra-ui/switch'
@@ -2897,18 +2911,18 @@ packages:
       framer-motion: '>=4.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/checkbox': registry.npmmirror.com/@chakra-ui/checkbox@2.2.15(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/checkbox': registry.npmmirror.com/@chakra-ui/checkbox@2.2.15(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0):
-    resolution: {integrity: sha512-sKzonHUbjOnRxZvcysN8pqa3y0OkTb9xWPhNFnvye/Km8vZhw4SfHKbVpRXedMPVp5Q3PHOxqAXOs6Q0kpo6KA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/system/-/system-2.5.6.tgz}
-    id: registry.npmmirror.com/@chakra-ui/system/2.5.6
+  registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0):
+    resolution: {integrity: sha512-Vy8UUaCxikOzOGE54IP8tKouvU38rEYU1HCSquU9+oe7Jd70HaiLa4vmUKvHyMUmxkOzDHIkgZLbVQCubSnN5w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/system/-/system-2.5.8.tgz}
+    id: registry.npmmirror.com/@chakra-ui/system/2.5.8
     name: '@chakra-ui/system'
-    version: 2.5.6
+    version: 2.5.8
     peerDependencies:
       '@emotion/react': ^11.0.0
       '@emotion/styled': ^11.0.0
@@ -2917,8 +2931,8 @@ packages:
       '@chakra-ui/color-mode': registry.npmmirror.com/@chakra-ui/color-mode@2.1.12(react@18.2.0)
       '@chakra-ui/object-utils': registry.npmmirror.com/@chakra-ui/object-utils@2.1.0
       '@chakra-ui/react-utils': registry.npmmirror.com/@chakra-ui/react-utils@2.0.12(react@18.2.0)
-      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.0
-      '@chakra-ui/theme-utils': registry.npmmirror.com/@chakra-ui/theme-utils@2.0.16
+      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.1
+      '@chakra-ui/theme-utils': registry.npmmirror.com/@chakra-ui/theme-utils@2.0.18
       '@chakra-ui/utils': registry.npmmirror.com/@chakra-ui/utils@2.0.15
       '@emotion/react': registry.npmmirror.com/@emotion/react@11.10.5(@babel/core@7.22.8)(@types/react@18.0.26)(react@18.2.0)
       '@emotion/styled': registry.npmmirror.com/@emotion/styled@11.10.5(@babel/core@7.22.8)(@emotion/react@11.10.5)(@types/react@18.0.26)(react@18.2.0)
@@ -2926,7 +2940,7 @@ packages:
       react-fast-compare: registry.npmmirror.com/react-fast-compare@3.2.1
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/table@2.0.17(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/table@2.0.17(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-OScheTEp1LOYvTki2NFwnAYvac8siAhW9BI5RKm5f5ORL2gVJo4I72RUqE0aKe1oboxgm7CYt5afT5PS5cG61A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/table/-/table-2.0.17.tgz}
     id: registry.npmmirror.com/@chakra-ui/table/2.0.17
     name: '@chakra-ui/table'
@@ -2937,11 +2951,11 @@ packages:
     dependencies:
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/tabs@2.1.9(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/tabs@2.1.9(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-Yf8e0kRvaGM6jfkJum0aInQ0U3ZlCafmrYYni2lqjcTtThqu+Yosmo3iYlnullXxCw5MVznfrkb9ySvgQowuYg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/tabs/-/tabs-2.1.9.tgz}
     id: registry.npmmirror.com/@chakra-ui/tabs/2.1.9
     name: '@chakra-ui/tabs'
@@ -2959,11 +2973,11 @@ packages:
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-safe-layout-effect': registry.npmmirror.com/@chakra-ui/react-use-safe-layout-effect@2.0.5(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/tag@3.0.0(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/tag@3.0.0(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-YWdMmw/1OWRwNkG9pX+wVtZio+B89odaPj6XeMn5nfNN8+jyhIEpouWv34+CO9G0m1lupJTxPSfgLAd7cqXZMA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/tag/-/tag-3.0.0.tgz}
     id: registry.npmmirror.com/@chakra-ui/tag/3.0.0
     name: '@chakra-ui/tag'
@@ -2972,13 +2986,13 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/icon': registry.npmmirror.com/@chakra-ui/icon@3.0.16(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/textarea@2.0.19(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/textarea@2.0.19(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-adJk+qVGsFeJDvfn56CcJKKse8k7oMGlODrmpnpTdF+xvlsiTM+1GfaJvgNSpHHuQFdz/A0z1uJtfGefk0G2ZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/textarea/-/textarea-2.0.19.tgz}
     id: registry.npmmirror.com/@chakra-ui/textarea/2.0.19
     name: '@chakra-ui/textarea'
@@ -2987,96 +3001,97 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/form-control': registry.npmmirror.com/@chakra-ui/form-control@2.0.18(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/theme-tools@2.0.17(@chakra-ui/styled-system@2.9.0):
-    resolution: {integrity: sha512-Auu38hnihlJZQcPok6itRDBbwof3TpXGYtDPnOvrq4Xp7jnab36HLt7KEXSDPXbtOk3ZqU99pvI1en5LbDrdjg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/theme-tools/-/theme-tools-2.0.17.tgz}
-    id: registry.npmmirror.com/@chakra-ui/theme-tools/2.0.17
+  registry.npmmirror.com/@chakra-ui/theme-tools@2.0.18(@chakra-ui/styled-system@2.9.1):
+    resolution: {integrity: sha512-MbiRuXb2tb41FbnW41zhsYYAU0znlpfYZnu0mxCf8U2otCwPekJCfESUGYypjq4JnydQ7TDOk+Kz/Wi974l4mw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/theme-tools/-/theme-tools-2.0.18.tgz}
+    id: registry.npmmirror.com/@chakra-ui/theme-tools/2.0.18
     name: '@chakra-ui/theme-tools'
-    version: 2.0.17
+    version: 2.0.18
     peerDependencies:
       '@chakra-ui/styled-system': '>=2.0.0'
     dependencies:
       '@chakra-ui/anatomy': registry.npmmirror.com/@chakra-ui/anatomy@2.1.2
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.0
+      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.1
       color2k: registry.npmmirror.com/color2k@2.0.2
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/theme-utils@2.0.16:
-    resolution: {integrity: sha512-xVrQ8YEhIX51PB27kbEGHoQ3G78erSykqOeIPkoxaEfWBV4Ba83o7RwEZG8/Qa7c7S4qYPmCSGynegBWrsQpHA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/theme-utils/-/theme-utils-2.0.16.tgz}
+  registry.npmmirror.com/@chakra-ui/theme-utils@2.0.18:
+    resolution: {integrity: sha512-aSbkUUiFpc1NHC7lQdA6uYlr6EcZFXz6b4aJ7VRDpqTiywvqYnvfGzhmsB0z94vgtS9qXc6HoIwBp25jYGV2MA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/theme-utils/-/theme-utils-2.0.18.tgz}
     name: '@chakra-ui/theme-utils'
-    version: 2.0.16
+    version: 2.0.18
     dependencies:
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.0
-      '@chakra-ui/theme': registry.npmmirror.com/@chakra-ui/theme@3.1.0(@chakra-ui/styled-system@2.9.0)
+      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.1
+      '@chakra-ui/theme': registry.npmmirror.com/@chakra-ui/theme@3.1.2(@chakra-ui/styled-system@2.9.1)
       lodash.mergewith: registry.npmmirror.com/lodash.mergewith@4.6.2
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/theme@3.1.0(@chakra-ui/styled-system@2.9.0):
-    resolution: {integrity: sha512-lO2p37lyEGVmGUrr+lakHpnvrJHkkfPnSM+w9MGmR0V0rqIGTIBrirBO07vDccNRS17jcXjA8d9QZEBYzIVyNw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/theme/-/theme-3.1.0.tgz}
-    id: registry.npmmirror.com/@chakra-ui/theme/3.1.0
+  registry.npmmirror.com/@chakra-ui/theme@3.1.2(@chakra-ui/styled-system@2.9.1):
+    resolution: {integrity: sha512-ebUXMS3LZw2OZxEQNYaFw3/XuA3jpyprhS/frjHMvZKSOaCjMW+c9z25S0jp1NnpQff08VGI8EWbyVZECXU1QA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/theme/-/theme-3.1.2.tgz}
+    id: registry.npmmirror.com/@chakra-ui/theme/3.1.2
     name: '@chakra-ui/theme'
-    version: 3.1.0
+    version: 3.1.2
     peerDependencies:
       '@chakra-ui/styled-system': '>=2.8.0'
     dependencies:
       '@chakra-ui/anatomy': registry.npmmirror.com/@chakra-ui/anatomy@2.1.2
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.0
-      '@chakra-ui/theme-tools': registry.npmmirror.com/@chakra-ui/theme-tools@2.0.17(@chakra-ui/styled-system@2.9.0)
+      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.1
+      '@chakra-ui/theme-tools': registry.npmmirror.com/@chakra-ui/theme-tools@2.0.18(@chakra-ui/styled-system@2.9.1)
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/toast@6.1.2(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-hKSv6tX0zgZIZDMpIzs0kZM56sYrD5lvlLQ5JfERLi0KTSTeP+vbYh4+Vg3GTXPCn1JBF7mZRX0gU22WEMfJ8A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/toast/-/toast-6.1.2.tgz}
-    id: registry.npmmirror.com/@chakra-ui/toast/6.1.2
+  registry.npmmirror.com/@chakra-ui/toast@6.1.4(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-wAcPHq/N/ar4jQxkUGhnsbp+lx2eKOpHxn1KaWdHXUkqCNUA1z09fvBsoMyzObSiiwbDuQPZG5RxsOhzfPZX4Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/toast/-/toast-6.1.4.tgz}
+    id: registry.npmmirror.com/@chakra-ui/toast/6.1.4
     name: '@chakra-ui/toast'
-    version: 6.1.2
+    version: 6.1.4
     peerDependencies:
-      '@chakra-ui/system': 2.5.6
+      '@chakra-ui/system': 2.5.8
       framer-motion: '>=4.0.0'
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@chakra-ui/alert': registry.npmmirror.com/@chakra-ui/alert@2.1.0(@chakra-ui/system@2.5.6)(react@18.2.0)
-      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.6)(react@18.2.0)
+      '@chakra-ui/alert': registry.npmmirror.com/@chakra-ui/alert@2.1.0(@chakra-ui/system@2.5.8)(react@18.2.0)
+      '@chakra-ui/close-button': registry.npmmirror.com/@chakra-ui/close-button@2.0.17(@chakra-ui/system@2.5.8)(react@18.2.0)
       '@chakra-ui/portal': registry.npmmirror.com/@chakra-ui/portal@2.0.16(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/react-context': registry.npmmirror.com/@chakra-ui/react-context@2.0.8(react@18.2.0)
       '@chakra-ui/react-use-timeout': registry.npmmirror.com/@chakra-ui/react-use-timeout@2.0.5(react@18.2.0)
       '@chakra-ui/react-use-update-effect': registry.npmmirror.com/@chakra-ui/react-use-update-effect@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.0
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
-      '@chakra-ui/theme': registry.npmmirror.com/@chakra-ui/theme@3.1.0(@chakra-ui/styled-system@2.9.0)
+      '@chakra-ui/styled-system': registry.npmmirror.com/@chakra-ui/styled-system@2.9.1
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/theme': registry.npmmirror.com/@chakra-ui/theme@3.1.2(@chakra-ui/styled-system@2.9.1)
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
       react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/tooltip@2.2.7(@chakra-ui/system@2.5.6)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ImUJ6NnVqARaYqpgtO+kzucDRmxo8AF3jMjARw0bx2LxUkKwgRCOEaaRK5p5dHc0Kr6t5/XqjDeUNa19/sLauA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/tooltip/-/tooltip-2.2.7.tgz}
-    id: registry.npmmirror.com/@chakra-ui/tooltip/2.2.7
+  registry.npmmirror.com/@chakra-ui/tooltip@2.2.9(@chakra-ui/system@2.5.8)(framer-motion@10.12.16)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ZoksllanqXRUyMDaiogvUVJ+RdFXwZrfrwx3RV22fejYZIQ602hZ3QHtHLB5ZnKFLbvXKMZKM23HxFTSb0Ytqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/tooltip/-/tooltip-2.2.9.tgz}
+    id: registry.npmmirror.com/@chakra-ui/tooltip/2.2.9
     name: '@chakra-ui/tooltip'
-    version: 2.2.7
+    version: 2.2.9
     peerDependencies:
       '@chakra-ui/system': '>=2.0.0'
       framer-motion: '>=4.0.0'
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.13(react@18.2.0)
+      '@chakra-ui/dom-utils': registry.npmmirror.com/@chakra-ui/dom-utils@2.1.0
+      '@chakra-ui/popper': registry.npmmirror.com/@chakra-ui/popper@3.0.14(react@18.2.0)
       '@chakra-ui/portal': registry.npmmirror.com/@chakra-ui/portal@2.0.16(react-dom@18.2.0)(react@18.2.0)
       '@chakra-ui/react-types': registry.npmmirror.com/@chakra-ui/react-types@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-disclosure': registry.npmmirror.com/@chakra-ui/react-use-disclosure@2.0.8(react@18.2.0)
       '@chakra-ui/react-use-event-listener': registry.npmmirror.com/@chakra-ui/react-use-event-listener@2.0.7(react@18.2.0)
       '@chakra-ui/react-use-merge-refs': registry.npmmirror.com/@chakra-ui/react-use-merge-refs@2.0.7(react@18.2.0)
       '@chakra-ui/shared-utils': registry.npmmirror.com/@chakra-ui/shared-utils@2.0.5
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       framer-motion: registry.npmmirror.com/framer-motion@10.12.16(react-dom@18.2.0)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
       react-dom: registry.npmmirror.com/react-dom@18.2.0(react@18.2.0)
@@ -3107,7 +3122,7 @@ packages:
       lodash.mergewith: registry.npmmirror.com/lodash.mergewith@4.6.2
     dev: false
 
-  registry.npmmirror.com/@chakra-ui/visually-hidden@2.0.15(@chakra-ui/system@2.5.6)(react@18.2.0):
+  registry.npmmirror.com/@chakra-ui/visually-hidden@2.0.15(@chakra-ui/system@2.5.8)(react@18.2.0):
     resolution: {integrity: sha512-WWULIiucYRBIewHKFA7BssQ2ABLHLVd9lrUo3N3SZgR0u4ZRDDVEUNOy+r+9ruDze8+36dGbN9wsN1IdELtdOw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@chakra-ui/visually-hidden/-/visually-hidden-2.0.15.tgz}
     id: registry.npmmirror.com/@chakra-ui/visually-hidden/2.0.15
     name: '@chakra-ui/visually-hidden'
@@ -3116,7 +3131,7 @@ packages:
       '@chakra-ui/system': '>=2.0.0'
       react: '>=18'
     dependencies:
-      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.6(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
+      '@chakra-ui/system': registry.npmmirror.com/@chakra-ui/system@2.5.8(@emotion/react@11.10.5)(@emotion/styled@11.10.5)(react@18.2.0)
       react: registry.npmmirror.com/react@18.2.0
     dev: false
 
@@ -3884,10 +3899,10 @@ packages:
       '@jridgewell/sourcemap-codec': registry.npmmirror.com/@jridgewell/sourcemap-codec@1.4.15
     dev: true
 
-  registry.npmmirror.com/@next/env@13.4.6:
-    resolution: {integrity: sha512-nqUxEtvDqFhmV1/awSg0K2XHNwkftNaiUqCYO9e6+MYmqNObpKVl7OgMkGaQ2SZnFx5YqF0t60ZJTlyJIDAijg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/env/-/env-13.4.6.tgz}
+  registry.npmmirror.com/@next/env@13.4.9:
+    resolution: {integrity: sha512-vuDRK05BOKfmoBYLNi2cujG2jrYbEod/ubSSyqgmEx9n/W3eZaJQdRNhTfumO+qmq/QTzLurW487n/PM/fHOkw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/env/-/env-13.4.9.tgz}
     name: '@next/env'
-    version: 13.4.6
+    version: 13.4.9
     dev: false
 
   registry.npmmirror.com/@next/eslint-plugin-next@13.1.2:
@@ -3898,10 +3913,10 @@ packages:
       glob: registry.npmmirror.com/glob@7.1.7
     dev: true
 
-  registry.npmmirror.com/@next/swc-darwin-arm64@13.4.6:
-    resolution: {integrity: sha512-ahi6VP98o4HV19rkOXPSUu+ovfHfUxbJQ7VVJ7gL2FnZRr7onEFC1oGQ6NQHpm8CxpIzSSBW79kumlFMOmZVjg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-darwin-arm64@13.4.9:
+    resolution: {integrity: sha512-TVzGHpZoVBk3iDsTOQA/R6MGmFp0+17SWXMEWd6zG30AfuELmSSMe2SdPqxwXU0gbpWkJL1KgfLzy5ReN0crqQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.4.9.tgz}
     name: '@next/swc-darwin-arm64'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
@@ -3909,10 +3924,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-darwin-x64@13.4.6:
-    resolution: {integrity: sha512-13cXxKFsPJIJKzUqrU5XB1mc0xbUgYsRcdH6/rB8c4NMEbWGdtD4QoK9ShN31TZdePpD4k416Ur7p+deMIxnnA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-darwin-x64/-/swc-darwin-x64-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-darwin-x64@13.4.9:
+    resolution: {integrity: sha512-aSfF1fhv28N2e7vrDZ6zOQ+IIthocfaxuMWGReB5GDriF0caTqtHttAvzOMgJgXQtQx6XhyaJMozLTSEXeNN+A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-darwin-x64/-/swc-darwin-x64-13.4.9.tgz}
     name: '@next/swc-darwin-x64'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
@@ -3920,10 +3935,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-linux-arm64-gnu@13.4.6:
-    resolution: {integrity: sha512-Ti+NMHEjTNktCVxNjeWbYgmZvA2AqMMI2AMlzkXsU7W4pXCMhrryAmAIoo+7YdJbsx01JQWYVxGe62G6DoCLaA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-linux-arm64-gnu@13.4.9:
+    resolution: {integrity: sha512-JhKoX5ECzYoTVyIy/7KykeO4Z2lVKq7HGQqvAH+Ip9UFn1MOJkOnkPRB7v4nmzqAoY+Je05Aj5wNABR1N18DMg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-arm64-gnu/-/swc-linux-arm64-gnu-13.4.9.tgz}
     name: '@next/swc-linux-arm64-gnu'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -3932,10 +3947,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-linux-arm64-musl@13.4.6:
-    resolution: {integrity: sha512-OHoC6gO7XfjstgwR+z6UHKlvhqJfyMtNaJidjx3sEcfaDwS7R2lqR5AABi8PuilGgi0BO0O0sCXqLlpp3a0emQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-linux-arm64-musl@13.4.9:
+    resolution: {integrity: sha512-OOn6zZBIVkm/4j5gkPdGn4yqQt+gmXaLaSjRSO434WplV8vo2YaBNbSHaTM9wJpZTHVDYyjzuIYVEzy9/5RVZw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-arm64-musl/-/swc-linux-arm64-musl-13.4.9.tgz}
     name: '@next/swc-linux-arm64-musl'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -3944,10 +3959,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-linux-x64-gnu@13.4.6:
-    resolution: {integrity: sha512-zHZxPGkUlpfNJCboUrFqwlwEX5vI9LSN70b8XEb0DYzzlrZyCyOi7hwDp/+3Urm9AB7YCAJkgR5Sp1XBVjHdfQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-linux-x64-gnu@13.4.9:
+    resolution: {integrity: sha512-iA+fJXFPpW0SwGmx/pivVU+2t4zQHNOOAr5T378PfxPHY6JtjV6/0s1vlAJUdIHeVpX98CLp9k5VuKgxiRHUpg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-13.4.9.tgz}
     name: '@next/swc-linux-x64-gnu'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -3956,10 +3971,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-linux-x64-musl@13.4.6:
-    resolution: {integrity: sha512-K/Y8lYGTwTpv5ME8PSJxwxLolaDRdVy+lOd9yMRMiQE0BLUhtxtCWC9ypV42uh9WpLjoaD0joOsB9Q6mbrSGJg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-linux-x64-musl@13.4.9:
+    resolution: {integrity: sha512-rlNf2WUtMM+GAQrZ9gMNdSapkVi3koSW3a+dmBVp42lfugWVvnyzca/xJlN48/7AGx8qu62WyO0ya1ikgOxh6A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-13.4.9.tgz}
     name: '@next/swc-linux-x64-musl'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -3968,10 +3983,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-win32-arm64-msvc@13.4.6:
-    resolution: {integrity: sha512-U6LtxEUrjBL2tpW+Kr1nHCSJWNeIed7U7l5o7FiKGGwGgIlFi4UHDiLI6TQ2lxi20fAU33CsruV3U0GuzMlXIw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-win32-arm64-msvc@13.4.9:
+    resolution: {integrity: sha512-5T9ybSugXP77nw03vlgKZxD99AFTHaX8eT1ayKYYnGO9nmYhJjRPxcjU5FyYI+TdkQgEpIcH7p/guPLPR0EbKA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-arm64-msvc/-/swc-win32-arm64-msvc-13.4.9.tgz}
     name: '@next/swc-win32-arm64-msvc'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
@@ -3979,10 +3994,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-win32-ia32-msvc@13.4.6:
-    resolution: {integrity: sha512-eEBeAqpCfhdPSlCZCayjCiyIllVqy4tcqvm1xmg3BgJG0G5ITiMM4Cw2WVeRSgWDJqQGRyyb+q8Y2ltzhXOWsQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-win32-ia32-msvc@13.4.9:
+    resolution: {integrity: sha512-ojZTCt1lP2ucgpoiFgrFj07uq4CZsq4crVXpLGgQfoFq00jPKRPgesuGPaz8lg1yLfvafkU3Jd1i8snKwYR3LA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-ia32-msvc/-/swc-win32-ia32-msvc-13.4.9.tgz}
     name: '@next/swc-win32-ia32-msvc'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [ia32]
     os: [win32]
@@ -3990,10 +4005,10 @@ packages:
     dev: false
     optional: true
 
-  registry.npmmirror.com/@next/swc-win32-x64-msvc@13.4.6:
-    resolution: {integrity: sha512-OrZs94AuO3ZS5tnqlyPRNgfWvboXaDQCi5aXGve3o3C+Sj0ctMUV9+Do+0zMvvLRumR8E0PTWKvtz9n5vzIsWw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.6.tgz}
+  registry.npmmirror.com/@next/swc-win32-x64-msvc@13.4.9:
+    resolution: {integrity: sha512-QbT03FXRNdpuL+e9pLnu+XajZdm/TtIXVYY4lA9t+9l0fLZbHXDYEKitAqxrOj37o3Vx5ufxiRAniaIebYDCgw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.4.9.tgz}
     name: '@next/swc-win32-x64-msvc'
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -8917,11 +8932,11 @@ packages:
     version: 1.4.0
     dev: true
 
-  registry.npmmirror.com/next@13.4.6(@babel/core@7.22.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-sjVqjxU+U2aXZnYt4Ud6CTLNNwWjdSfMgemGpIQJcN3Z7Jni9xRWbR0ie5fQzCg87aLqQVhKA2ud2gPoqJ9lGw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/next/-/next-13.4.6.tgz}
-    id: registry.npmmirror.com/next/13.4.6
+  registry.npmmirror.com/next@13.4.9(@babel/core@7.22.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-vtefFm/BWIi/eWOqf1GsmKG3cjKw1k3LjuefKRcL3iiLl3zWzFdPG3as6xtxrGO6gwTzzaO1ktL4oiHt/uvTjA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/next/-/next-13.4.9.tgz}
+    id: registry.npmmirror.com/next/13.4.9
     name: next
-    version: 13.4.6
+    version: 13.4.9
     engines: {node: '>=16.8.0'}
     hasBin: true
     peerDependencies:
@@ -8938,7 +8953,7 @@ packages:
       sass:
         optional: true
     dependencies:
-      '@next/env': registry.npmmirror.com/@next/env@13.4.6
+      '@next/env': registry.npmmirror.com/@next/env@13.4.9
       '@swc/helpers': registry.npmmirror.com/@swc/helpers@0.5.1
       busboy: registry.npmmirror.com/busboy@1.6.0
       caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001514
@@ -8949,15 +8964,15 @@ packages:
       watchpack: registry.npmmirror.com/watchpack@2.4.0
       zod: registry.npmmirror.com/zod@3.21.4
     optionalDependencies:
-      '@next/swc-darwin-arm64': registry.npmmirror.com/@next/swc-darwin-arm64@13.4.6
-      '@next/swc-darwin-x64': registry.npmmirror.com/@next/swc-darwin-x64@13.4.6
-      '@next/swc-linux-arm64-gnu': registry.npmmirror.com/@next/swc-linux-arm64-gnu@13.4.6
-      '@next/swc-linux-arm64-musl': registry.npmmirror.com/@next/swc-linux-arm64-musl@13.4.6
-      '@next/swc-linux-x64-gnu': registry.npmmirror.com/@next/swc-linux-x64-gnu@13.4.6
-      '@next/swc-linux-x64-musl': registry.npmmirror.com/@next/swc-linux-x64-musl@13.4.6
-      '@next/swc-win32-arm64-msvc': registry.npmmirror.com/@next/swc-win32-arm64-msvc@13.4.6
-      '@next/swc-win32-ia32-msvc': registry.npmmirror.com/@next/swc-win32-ia32-msvc@13.4.6
-      '@next/swc-win32-x64-msvc': registry.npmmirror.com/@next/swc-win32-x64-msvc@13.4.6
+      '@next/swc-darwin-arm64': registry.npmmirror.com/@next/swc-darwin-arm64@13.4.9
+      '@next/swc-darwin-x64': registry.npmmirror.com/@next/swc-darwin-x64@13.4.9
+      '@next/swc-linux-arm64-gnu': registry.npmmirror.com/@next/swc-linux-arm64-gnu@13.4.9
+      '@next/swc-linux-arm64-musl': registry.npmmirror.com/@next/swc-linux-arm64-musl@13.4.9
+      '@next/swc-linux-x64-gnu': registry.npmmirror.com/@next/swc-linux-x64-gnu@13.4.9
+      '@next/swc-linux-x64-musl': registry.npmmirror.com/@next/swc-linux-x64-musl@13.4.9
+      '@next/swc-win32-arm64-msvc': registry.npmmirror.com/@next/swc-win32-arm64-msvc@13.4.9
+      '@next/swc-win32-ia32-msvc': registry.npmmirror.com/@next/swc-win32-ia32-msvc@13.4.9
+      '@next/swc-win32-x64-msvc': registry.npmmirror.com/@next/swc-win32-x64-msvc@13.4.9
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
@@ -9489,11 +9504,11 @@ packages:
       use-sidecar: registry.npmmirror.com/use-sidecar@1.1.2(@types/react@18.0.26)(react@18.2.0)
     dev: false
 
-  registry.npmmirror.com/react-icons@4.4.0(react@18.2.0):
-    resolution: {integrity: sha512-fSbvHeVYo/B5/L4VhB7sBA1i2tS8MkT0Hb9t2H1AVPkwGfVHLJCqyr2Py9dKMxsyM63Eng1GkdZfbWj+Fmv8Rg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-icons/-/react-icons-4.4.0.tgz}
-    id: registry.npmmirror.com/react-icons/4.4.0
+  registry.npmmirror.com/react-icons@4.10.1(react@18.2.0):
+    resolution: {integrity: sha512-/ngzDP/77tlCfqthiiGNZeYFACw85fUjZtLbedmJ5DTlNDIwETxhwBzdOJ21zj4iJdvc0J3y7yOsX3PpxAJzrw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/react-icons/-/react-icons-4.10.1.tgz}
+    id: registry.npmmirror.com/react-icons/4.10.1
     name: react-icons
-    version: 4.4.0
+    version: 4.10.1
     peerDependencies:
       react: '*'
     dependencies:
