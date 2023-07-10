@@ -11,7 +11,7 @@
     "lint:fix": "eslint --cache --fix",
     "typecheck": "tsc --noEmit",
     "test": "jest -c jest.config.js --silent --passWithNoTests --runInBand --detectOpenHandles",
-    "test:update-snapshots": "jest -c jest.config.js --updateSnapshot"    
+    "test:update-snapshots": "jest -c jest.config.js --updateSnapshot"
   },
   "dependencies": {
     "@chakra-ui/next-js": "^2.1.4",
